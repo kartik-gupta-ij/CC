@@ -81,16 +81,3 @@ input{
     color: white;
     border-radius: 2rem;
 }
-.cbox{
-    text-align: center;
-
-    margin: 0%;
-    padding: 0%;
-}
-.rbox{
-    text-align: right;
-    margin: 0;
-    margin-top: -25px;
-
-    padding: 0%;
-}
