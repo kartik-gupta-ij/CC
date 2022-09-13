@@ -2,11 +2,19 @@
 .logo{
     margin: 0px 10px;
 }
+.logo:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    filter: invert(72%) sepia(42%) saturate(613%) hue-rotate(119deg) brightness(94%) contrast(86%);
+}
 .bg-custom{
     background-color: #192839;
     color: white;
 }
 
+.mainText:hover{
+    text-decoration: underline;
+    color: #0645AD;
+}
 .mainText{
     margin: 2.5rem;
     font: 5em sans-serif;
@@ -56,6 +64,9 @@ input{
     padding: .5rem;
     border-radius: .8rem;
 }
+.submit:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
 .people{
     width: 100%;
 }
@@ -76,6 +87,7 @@ input{
 }
 .footlink a:hover{
   text-decoration: underline;
+  color: #41D3BD;
 }
 .foth3{
     display: inline;
@@ -95,3 +107,16 @@ input{
     color: white;
     border-radius: 2rem;
 }
+.btn-custom:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    background-color: #304D6D;
+}
+
+.login{
+    text-decoration: none;
+}
+.login:hover{
+    text-decoration: none;
+    color: #0645AD;
+}
+
