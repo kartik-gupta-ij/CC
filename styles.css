@@ -49,6 +49,9 @@ input{
 .footlink{
     padding: 3rem;
 }
+.pad{
+    padding: 3rem;
+}
 
 .footlink a {
     display: block;
@@ -60,18 +63,7 @@ input{
 .footlink a:hover{
   text-decoration: underline;
 }
-.father {
-    position: relative;
-    text-align: center;     
-}
-.child {
-    position: absolute;;
-    top: 50%;
-    left: 50%;    
-    margin-left: -50px;
-    margin-top: -50px;
-}
-.father h3{
+.foth3{
     display: inline;
     
 }
