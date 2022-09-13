@@ -20,7 +20,7 @@ form{
 
 }
 
-.input{
+input{
     margin: 0.5rem;
     padding: 1rem;
     width: 25rem;
@@ -62,6 +62,7 @@ form{
 }
 .father {
     position: relative;
+    text-align: center;     
 }
 .child {
     position: absolute;;
@@ -70,14 +71,16 @@ form{
     margin-left: -50px;
     margin-top: -50px;
 }
-.fatherj {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+.father h3{
+    display: inline;
+    
 }
-.fatherj img{
+.fstar{
     width: 10rem;
+    padding-left: 1rem;
+}
+.flogo{
+    width: 15rem;
     padding-left: 1rem;
 }
 .btn-custom{
@@ -85,4 +88,17 @@ form{
     background-color: #304D6D;
     color: white;
     border-radius: 2rem;
+}
+.cbox{
+    text-align: center;
+
+    margin: 0%;
+    padding: 0%;
+}
+.rbox{
+    text-align: right;
+    margin: 0;
+    margin-top: -25px;
+
+    padding: 0%;
 }
